@@ -3,7 +3,7 @@
     it guarantees that all other future in the closest ms milliseconds will be ignored.
  */
 
-export function debounce(func, milliseconds) {
+export const  debounce = (func, milliseconds) => {
     let validCall = true;
     return function (...args) {
         if(validCall === false) return;
@@ -11,7 +11,7 @@ export function debounce(func, milliseconds) {
         func.apply(this, args);
         setTimeout(() => validCall = true, milliseconds);
     }
-}
+};
 
 const log = debounce(console.log, 5000);
 

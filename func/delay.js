@@ -3,11 +3,11 @@
     it guarantees that it is called after closest ms milliseconds.
  */
 
-export function delay(func, milliseconds) {
+export const delay = (func, milliseconds) => {
     return function (...args) {
         setTimeout(() => func.apply(this, args), milliseconds);
     };
-}
+};
 
 const log = delay(console.log, 5000);
 
