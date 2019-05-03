@@ -1,4 +1,6 @@
 # algorithms
 
-[Algorithms on strings](string/String.md)
+[Algorithms on strings](string/string.md)
+
 [Algorithms](func/func.md)
+
