@@ -1,6 +1,6 @@
 # Algorithms on strings
 
-#### Palindrome
+## Palindrome
 
 {% code-tabs %}
 {% code-tabs-item title="Currying.js" %}
@@ -10,7 +10,7 @@ const palindrome = (str) => str === str.split('').reverse().join('');
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-#### Reverse a string
+## Reverse a string
 
 {% code-tabs %}
 {% code-tabs-item title="Currying.js" %}
@@ -19,3 +19,4 @@ const reverseString = (str) => str.split('').reverse().join('');
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+

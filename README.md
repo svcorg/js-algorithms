@@ -1,5 +1,5 @@
-# algorithms
+# Javascript Algorithms
 
-[Algorithms on strings](string/string.md)  
-[Algorithms](func/func.md)
+[Algorithms on strings](algorithms/strings.md)  
+[Algorithms](algorithms/functions.md)
 

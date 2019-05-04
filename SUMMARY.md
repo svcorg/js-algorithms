@@ -1,8 +1,9 @@
 # Table of contents
 
-* [algorithms](README.md)
-* [func](func/README.md)
-  * [Algorithms](func/func.md)
-* [string](string/README.md)
-  * [Algorithms on strings](string/string.md)
+* [Javascript Algorithms](README.md)
+
+## Algorithms
+
+* [Algorithms on strings](algorithms/strings.md)
+* [Algorithms](algorithms/functions.md)
 

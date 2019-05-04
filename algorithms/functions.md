@@ -1,6 +1,6 @@
 # Algorithms
 
-#### Compose
+## Compose
 
 {% code-tabs %}
 {% code-tabs-item title="Compose.js" %}
@@ -19,7 +19,7 @@ const compose = (...funcs) => {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-#### Currying
+## Currying
 
 {% code-tabs %}
 {% code-tabs-item title="Currying.js" %}
@@ -40,7 +40,7 @@ const currying = (func, ...args) => {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-#### Debounce
+## Debounce
 
 {% code-tabs %}
 {% code-tabs-item title="Currying.js" %}
@@ -58,7 +58,7 @@ const  debounce = (func, milliseconds) => {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-#### Delay
+## Delay
 
 {% code-tabs %}
 {% code-tabs-item title="Currying.js" %}
@@ -72,7 +72,7 @@ const delay = (func, milliseconds) => {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-#### Infinite args/calls
+## Infinite args/calls
 
 {% code-tabs %}
 {% code-tabs-item title="Currying.js" %}
@@ -92,7 +92,7 @@ const sum = (...sumArgs) => {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-#### Pipe
+## Pipe
 
 {% code-tabs %}
 {% code-tabs-item title="Currying.js" %}
@@ -110,3 +110,4 @@ const pipe = (...funcs) => {
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
